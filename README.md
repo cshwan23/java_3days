@@ -2,7 +2,9 @@
 kosmo
 
 
-좌 우가 문자데이터인데 중간에 +가 들어가면 그 용도는 연결연산자가 된다.
+좌 우가 문자데이터일 때
+데이터 간에 +가 들어가면 
+그 용도는 연결 연산자가 된다.
 (+ 사칙 연산자 : 좌우가 숫자데이터일 때)
 
       System.out.println("학생이름 : " + student_name );
@@ -13,6 +15,7 @@ kosmo
      
 		 String student_name = "홍길동";을
 		 String student_name = '홍길동'; 수정하면 ?
+		 
 <정답>
 error 발생
 
